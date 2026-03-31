@@ -3,6 +3,7 @@ import { siteConfig, getWhatsAppLink } from "@/data/site-config";
 import Button from "@/components/ui/Button";
 import Overline from "@/components/ui/Overline";
 import FadeUp from "@/components/ui/FadeUp";
+import TestimonialCarousel from "@/components/ui/TestimonialCarousel";
 
 export default function Hero() {
   return (
@@ -66,21 +67,9 @@ export default function Hero() {
             {siteConfig.reviews.source}
           </p>
 
-          {/* Testimonios */}
-          <div className="mt-6 space-y-4">
-            {siteConfig.testimonials.map((t) => (
-              <div
-                key={t.name}
-                className="rounded-lg border border-white/10 bg-white/[0.04] p-4"
-              >
-                <p className="text-sm leading-relaxed text-white/80">
-                  &ldquo;{t.text}&rdquo;
-                </p>
-                <p className="mt-2 text-xs font-semibold text-brand">
-                  — {t.name}
-                </p>
-              </div>
-            ))}
+          {/* Carrusel de testimonios */}
+          <div className="mt-6">
+            <TestimonialCarousel testimonials={siteConfig.testimonials} />
           </div>
 
           {/* Badge Google */}
