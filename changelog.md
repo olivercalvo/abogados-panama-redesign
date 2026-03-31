@@ -11,6 +11,15 @@ Formato: MAYOR.MENOR.PARCHE
 
 ## Historial de Cambios
 
+### v0.2.1 — 2026-03-31
+| Campo | Valor |
+|-------|-------|
+| Tipo | docs |
+| Descripción | Verificación completa SOP-008: localhost:3000 HTTP 200, secciones IDs, Schema JSON-LD (2 scripts), WhatsApp links, logo, smooth scroll, linter 0 errores, npm audit 0 vulnerabilidades. Fases 0-4 completadas. |
+| Archivos | task_plan.md, changelog.md |
+| Impacto | Proyecto listo para Fase 5 (Deploy) |
+| SOP | SOP-008 |
+
 ### v0.2.0 — 2026-03-31
 | Campo | Valor |
 |-------|-------|
