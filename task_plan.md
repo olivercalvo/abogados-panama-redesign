@@ -38,10 +38,10 @@
 ## Fase 2: Links (Integraciones)
 **Pre-requisito:** Fase 1 completada.
 
-- [ ] Verificar Google Fonts cargando correctamente (display:swap)
-- [ ] Verificar Lucide React instalado y funcionando (importar un icono de prueba)
-- [ ] Verificar link WhatsApp funciona: wa.me/50761228024?text=...
-- [ ] Verificar logo carga desde /public
+- [x] Verificar Google Fonts cargando correctamente (display:swap)
+- [x] Verificar Lucide React instalado y funcionando (importar un icono de prueba)
+- [x] Verificar link WhatsApp funciona: wa.me/50761228024?text=...
+- [x] Verificar logo carga desde /public
 
 ---
 
@@ -67,13 +67,13 @@ Cada sección sigue SOP-006. Implementar en orden de aparición:
 ## Fase 4: Stylize (Pulido visual)
 **Pre-requisito:** Fase 3 completada (todas las secciones implementadas).
 
-- [ ] Implementar animaciones fade-up al scroll (Intersection Observer)
-- [ ] Implementar hover states en tarjetas de servicios (elevación + borde naranja top)
-- [ ] Implementar transiciones suaves en botones y links (300ms)
-- [ ] Verificar responsive completo en 375px, 768px, 1024px, 1280px
-- [ ] Verificar contraste de colores (accesibilidad WCAG)
-- [ ] Verificar tipografía: serif solo en H1/H2, sans en todo lo demás
-- [ ] Optimizar imágenes: lazy loading en logo
+- [x] Implementar animaciones fade-up al scroll (Intersection Observer)
+- [x] Implementar hover states en tarjetas de servicios (elevación + borde naranja top)
+- [x] Implementar transiciones suaves en botones y links (300ms)
+- [x] Verificar responsive completo en 375px, 768px, 1024px, 1280px
+- [x] Verificar contraste de colores (accesibilidad WCAG)
+- [x] Verificar tipografía: serif solo en H1/H2, sans en todo lo demás
+- [x] Optimizar imágenes: lazy loading en logo
 - [ ] Verificar Core Web Vitals apuntando a 90+ (Lighthouse en DevTools)
 - [ ] Verificación visual completa (SOP-008)
 
@@ -97,11 +97,11 @@ Cada sección sigue SOP-006. Implementar en orden de aparición:
 |------|--------|--------|-------------|--------|
 | 0 | Inicialización | 13 | 11 | 🟡 Casi completa |
 | 1 | Blueprint | 8 | 8 | ✅ Completada |
-| 2 | Links | 4 | 0 | ⬜ Pendiente |
+| 2 | Links | 4 | 4 | ✅ Completada |
 | 3 | Architect | 11 | 11 | ✅ Completada |
-| 4 | Stylize | 9 | 0 | ⬜ Pendiente |
+| 4 | Stylize | 9 | 7 | 🟡 Casi completa |
 | 5 | Trigger | 6 | 0 | ⬜ Pendiente |
-| **Total** | | **51** | **30** | **59%** |
+| **Total** | | **51** | **41** | **80%** |
 
 ---
 

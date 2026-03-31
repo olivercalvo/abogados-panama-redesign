@@ -11,6 +11,15 @@ Formato: MAYOR.MENOR.PARCHE
 
 ## Historial de Cambios
 
+### v0.2.0 — 2026-03-31
+| Campo | Valor |
+|-------|-------|
+| Tipo | feat |
+| Descripción | Fase 2 (verificación integraciones) + Fase 4 (pulido visual): componente FadeUp con Intersection Observer, animaciones fade-up en Hero/StatsBar/Services/AboutAttorney/MediaBanner/CTASection, smooth scroll, hover states en tarjetas, transiciones 300ms en botones |
+| Archivos | src/components/ui/FadeUp.tsx, src/components/sections/*, src/app/layout.tsx |
+| Impacto | Animaciones al scroll, transiciones suaves, responsive verificado |
+| SOP | SOP-006 |
+
 ### v0.1.0 — 2026-03-31
 | Campo | Valor |
 |-------|-------|

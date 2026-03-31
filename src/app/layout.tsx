@@ -35,7 +35,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="es" className={`${playfair.variable} ${dmSans.variable}`}>
+    <html lang="es" className={`${playfair.variable} ${dmSans.variable} scroll-smooth`}>
       <body className="min-h-screen antialiased">{children}</body>
     </html>
   );

@@ -2,6 +2,7 @@ import { MessageCircle, Star } from "lucide-react";
 import { siteConfig, getWhatsAppLink } from "@/data/site-config";
 import Button from "@/components/ui/Button";
 import Overline from "@/components/ui/Overline";
+import FadeUp from "@/components/ui/FadeUp";
 
 export default function Hero() {
   return (
@@ -14,7 +15,7 @@ export default function Hero() {
 
       <div className="relative mx-auto grid max-w-7xl gap-12 px-4 sm:px-6 md:grid-cols-2 md:items-center">
         {/* Columna izquierda */}
-        <div>
+        <FadeUp>
           <Overline>{siteConfig.hero.overline}</Overline>
 
           <h1 className="mt-4 font-serif text-[32px] font-bold leading-tight text-white md:text-[52px]">
@@ -39,9 +40,10 @@ export default function Hero() {
               {siteConfig.hero.ctaSecondary}
             </Button>
           </div>
-        </div>
+        </FadeUp>
 
         {/* Columna derecha — tarjeta social proof */}
+        <FadeUp delay={200}>
         <div className="rounded-2xl border border-white/10 bg-white/[0.06] p-6 backdrop-blur-sm md:p-8">
           {/* Estrellas */}
           <div className="flex items-center gap-2">
@@ -87,6 +89,7 @@ export default function Hero() {
             Verificado por Google Reviews
           </div>
         </div>
+        </FadeUp>
       </div>
     </section>
   );
