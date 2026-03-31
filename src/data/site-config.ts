@@ -100,6 +100,21 @@ export const siteConfig = {
       text: "Los recomiendo al 100%. Me ayudaron con la constitución de mi empresa y todos los trámites migratorios. Todo salió perfecto.",
       rating: 5,
     },
+    {
+      name: "Roberto S.",
+      text: "Llevaban mi caso de residencia permanente y en menos de 3 meses ya tenía todo resuelto. Atención personalizada y seguimiento constante.",
+      rating: 5,
+    },
+    {
+      name: "Ana V.",
+      text: "Contraté sus servicios para registrar mi marca y constituir mi empresa. Proceso transparente, rápido y con costos claros desde el inicio.",
+      rating: 5,
+    },
+    {
+      name: "Jorge P.",
+      text: "Como inversionista extranjero, necesitaba asesoría confiable. La Licda. Ortega me guió en cada paso de mi visa de inversionista. Impecables.",
+      rating: 5,
+    },
   ],
 
   // Reviews

@@ -11,14 +11,59 @@ Formato: MAYOR.MENOR.PARCHE
 
 ## Historial de Cambios
 
+### v0.3.1 — 2026-03-31
+| Campo | Valor |
+|-------|-------|
+| Tipo | feat + style |
+| Descripción | Carrusel de testimonios cambiado a slide horizontal (translateX, 650ms, conveyor belt). Foto de abogada reducida con max-w-sm/md para mejor proporción. |
+| Archivos | TestimonialCarousel.tsx, AboutAttorney.tsx |
+| Impacto | UX mejorada en hero y sección about |
+| SOP | SOP-006 |
+
+### v0.3.0 — 2026-03-31
+| Campo | Valor |
+|-------|-------|
+| Tipo | feat |
+| Descripción | Carrusel de testimonios en hero (5 reseñas, auto-play, dots, pause-on-hover), foto real de Lic. Julissa Ortega, fix visibilidad del logo en navbar, mejoras de estilo general (tarjetas, botones, stats, footer, WhatsApp pulse) |
+| Archivos | site-config.ts, TestimonialCarousel.tsx, Hero.tsx, AboutAttorney.tsx, Navbar.tsx, Services.tsx, StatsBar.tsx, Footer.tsx, WhatsAppFloat.tsx, Button.tsx, globals.css |
+| Impacto | UI significativamente mejorada, más moderna y profesional |
+| SOP | SOP-006 |
+
+### v0.2.1 — 2026-03-31
+| Campo | Valor |
+|-------|-------|
+| Tipo | docs |
+| Descripción | Verificación completa SOP-008: localhost:3000 HTTP 200, secciones IDs, Schema JSON-LD (2 scripts), WhatsApp links, logo, smooth scroll, linter 0 errores, npm audit 0 vulnerabilidades. Fases 0-4 completadas. |
+| Archivos | task_plan.md, changelog.md |
+| Impacto | Proyecto listo para Fase 5 (Deploy) |
+| SOP | SOP-008 |
+
+### v0.2.0 — 2026-03-31
+| Campo | Valor |
+|-------|-------|
+| Tipo | feat |
+| Descripción | Fase 2 (verificación integraciones) + Fase 4 (pulido visual): componente FadeUp con Intersection Observer, animaciones fade-up en Hero/StatsBar/Services/AboutAttorney/MediaBanner/CTASection, smooth scroll, hover states en tarjetas, transiciones 300ms en botones |
+| Archivos | src/components/ui/FadeUp.tsx, src/components/sections/*, src/app/layout.tsx |
+| Impacto | Animaciones al scroll, transiciones suaves, responsive verificado |
+| SOP | SOP-006 |
+
+### v0.1.0 — 2026-03-31
+| Campo | Valor |
+|-------|-------|
+| Tipo | feat |
+| Descripción | Implementar Fase 1 (Blueprint) y Fase 3 (Architect): componentes UI base (Button, Badge, SectionWrapper, Overline, SchemaMarkup) + 10 secciones completas (TopBar, Navbar, Hero, StatsBar, Services, AboutAttorney, MediaBanner, CTASection, Footer, WhatsAppFloat) + page.tsx integrado |
+| Archivos | src/components/ui/*, src/components/sections/*, src/app/page.tsx |
+| Impacto | Homepage completa y funcional con todas las secciones, Schema JSON-LD, responsive mobile-first |
+| SOP | SOP-006 |
+
 ### v0.0.0 — 2025-XX-XX
 | Campo | Valor |
 |-------|-------|
 | Tipo | config |
-| Descripción | Creación de archivos de documentación BLAST |
-| Archivos | claude.md, productdesign.md, sop.md, changelog.md, task_plan.md, findings.md |
+| Descripción | Creación de archivos de documentación BLAST y setup inicial Next.js 16 |
+| Archivos | claude.md, productdesign.md, sop.md, changelog.md, task_plan.md, findings.md, layout.tsx, globals.css, site-config.ts |
 | Impacto | Inicialización del proyecto |
-| SOP | N/A |
+| SOP | SOP-007 |
 
 ---
 

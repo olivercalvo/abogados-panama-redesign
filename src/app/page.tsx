@@ -1,12 +1,31 @@
+import SchemaMarkup from "@/components/ui/SchemaMarkup";
+import TopBar from "@/components/sections/TopBar";
+import Navbar from "@/components/sections/Navbar";
+import Hero from "@/components/sections/Hero";
+import StatsBar from "@/components/sections/StatsBar";
+import Services from "@/components/sections/Services";
+import AboutAttorney from "@/components/sections/AboutAttorney";
+import MediaBanner from "@/components/sections/MediaBanner";
+import CTASection from "@/components/sections/CTASection";
+import Footer from "@/components/sections/Footer";
+import WhatsAppFloat from "@/components/sections/WhatsAppFloat";
+
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-center bg-light">
-      <h1 className="font-serif text-5xl font-bold text-dark">
-        AbogadosPanamá.net
-      </h1>
-      <p className="mt-4 text-lg text-text-secondary">
-        Rediseño en progreso...
-      </p>
-    </main>
+    <>
+      <SchemaMarkup />
+      <TopBar />
+      <Navbar />
+      <main>
+        <Hero />
+        <StatsBar />
+        <Services />
+        <AboutAttorney />
+        <MediaBanner />
+        <CTASection />
+      </main>
+      <Footer />
+      <WhatsAppFloat />
+    </>
   );
 }

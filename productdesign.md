@@ -50,7 +50,7 @@
   - Tarjeta con fondo semitransparente (rgba(255,255,255,0.06))
   - 5 estrellas (iconos) + "5.0 de 5"
   - "228 reseñas verificadas en Google"
-  - 2 testimonios cortos con nombre del cliente
+  - Carrusel automático de 5 testimonios (auto-play 4.5s, fade, dots, pause-on-hover, loop infinito)
   - Badge de Google Reviews
 
 ### S4: Barra de Estadísticas (StatsBar)
@@ -89,7 +89,7 @@
 ### S6: Sobre la Abogada Principal (AboutAttorney)
 - Fondo: blanco
 - Layout: 2 columnas. Izquierda: foto. Derecha: bio + credenciales
-- **Foto:** Placeholder oscuro con texto "Foto profesional de la Lic. Julissa Ortega" y aspect-ratio 3:4. Se reemplaza después con foto real.
+- **Foto:** Foto real (julissa-ortega.png) con object-cover, aspect-ratio 3:4, rounded-xl.
 - **Badge flotante** (esquina inferior derecha de la foto): "228 reseñas / 5 estrellas" con fondo naranja
 - **Columna derecha:**
   - Overline: "DIRECTORA DEL BUFETE"
