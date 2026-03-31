@@ -9,6 +9,21 @@ Formato: MAYOR.MENOR.PARCHE
 
 ---
 
+## Deploy Log
+
+### Deploy v0.3.1 — 2026-03-31
+| Campo | Valor |
+|-------|-------|
+| Fecha | 2026-03-31 |
+| Hash main (nuevo) | `cee85d4` |
+| Hash main (anterior) | `3adc5ba` |
+| Commits incluidos | 10 (514139b → 746209d) |
+| Resumen | Homepage completa con 10 secciones, animaciones, carrusel de testimonios, foto real de abogada, mejoras de estilo profesional |
+| Aprobador | Oliver (usuario) |
+| Plataforma | Vercel (auto-deploy desde main) |
+
+---
+
 ## Historial de Cambios
 
 ### v0.3.1 — 2026-03-31
