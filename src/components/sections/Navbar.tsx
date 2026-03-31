@@ -19,7 +19,7 @@ export default function Navbar() {
             alt={siteConfig.name}
             width={180}
             height={40}
-            className="h-9 w-auto"
+            className="h-9 w-auto contrast-125 brightness-75"
             priority
           />
         </Link>
