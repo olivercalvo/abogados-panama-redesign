@@ -12,7 +12,7 @@ export default function AboutAttorney() {
       <div className="grid gap-12 md:grid-cols-2 md:items-center">
         {/* Foto */}
         <FadeUp>
-          <div className="relative">
+          <div className="relative mx-auto max-w-sm md:max-w-md">
             <div className="aspect-[3/4] overflow-hidden rounded-xl">
               <Image
                 src="/julissa-ortega.png"
