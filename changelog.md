@@ -11,14 +11,23 @@ Formato: MAYOR.MENOR.PARCHE
 
 ## Historial de Cambios
 
+### v0.1.0 — 2026-03-31
+| Campo | Valor |
+|-------|-------|
+| Tipo | feat |
+| Descripción | Implementar Fase 1 (Blueprint) y Fase 3 (Architect): componentes UI base (Button, Badge, SectionWrapper, Overline, SchemaMarkup) + 10 secciones completas (TopBar, Navbar, Hero, StatsBar, Services, AboutAttorney, MediaBanner, CTASection, Footer, WhatsAppFloat) + page.tsx integrado |
+| Archivos | src/components/ui/*, src/components/sections/*, src/app/page.tsx |
+| Impacto | Homepage completa y funcional con todas las secciones, Schema JSON-LD, responsive mobile-first |
+| SOP | SOP-006 |
+
 ### v0.0.0 — 2025-XX-XX
 | Campo | Valor |
 |-------|-------|
 | Tipo | config |
-| Descripción | Creación de archivos de documentación BLAST |
-| Archivos | claude.md, productdesign.md, sop.md, changelog.md, task_plan.md, findings.md |
+| Descripción | Creación de archivos de documentación BLAST y setup inicial Next.js 16 |
+| Archivos | claude.md, productdesign.md, sop.md, changelog.md, task_plan.md, findings.md, layout.tsx, globals.css, site-config.ts |
 | Impacto | Inicialización del proyecto |
-| SOP | N/A |
+| SOP | SOP-007 |
 
 ---
 
