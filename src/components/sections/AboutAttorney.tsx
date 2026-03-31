@@ -8,7 +8,7 @@ import FadeUp from "@/components/ui/FadeUp";
 
 export default function AboutAttorney() {
   return (
-    <SectionWrapper bg="white" id="nosotros">
+    <SectionWrapper bg="white" id="nosotros" className="bg-gradient-to-br from-white to-light">
       <div className="grid gap-12 md:grid-cols-2 md:items-center">
         {/* Foto */}
         <FadeUp>

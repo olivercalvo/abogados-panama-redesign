@@ -35,7 +35,7 @@ export default function Services() {
       <div className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
         {siteConfig.services.map((s, i) => (
           <FadeUp key={s.id} delay={i * 100}>
-            <div className="group h-full rounded-xl border border-gray-200 bg-white p-6 transition-all duration-300 hover:border-t-3 hover:border-t-brand hover:shadow-lg">
+            <div className="group h-full rounded-xl border border-gray-200 bg-white p-6 transition-all duration-300 hover:border-l-3 hover:border-l-brand hover:shadow-lg hover:scale-[1.02]">
               <div className="mb-4 flex h-12 w-12 items-center justify-center rounded-lg bg-dark text-brand">
                 {iconMap[s.icon]}
               </div>

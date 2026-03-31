@@ -5,7 +5,7 @@ import { siteConfig, getWhatsAppLink, getPhoneLink } from "@/data/site-config";
 
 export default function Footer() {
   return (
-    <footer className="bg-dark pt-16 pb-8">
+    <footer className="bg-dark pt-20 pb-10">
       <div className="mx-auto max-w-7xl px-4 sm:px-6">
         <div className="grid gap-10 md:grid-cols-4">
           {/* Brand */}
@@ -32,7 +32,7 @@ export default function Footer() {
                 <li key={s.id}>
                   <Link
                     href="#servicios"
-                    className="text-sm text-white/50 transition-colors hover:text-brand"
+                    className="text-sm text-white/50 transition-all duration-300 hover:text-brand hover:translate-x-0.5"
                   >
                     {s.title}
                   </Link>
@@ -50,7 +50,7 @@ export default function Footer() {
               <li>
                 <Link
                   href="#blog"
-                  className="text-sm text-white/50 transition-colors hover:text-brand"
+                  className="text-sm text-white/50 transition-all duration-300 hover:text-brand hover:translate-x-0.5"
                 >
                   Blog
                 </Link>
@@ -58,7 +58,7 @@ export default function Footer() {
               <li>
                 <Link
                   href="#faq"
-                  className="text-sm text-white/50 transition-colors hover:text-brand"
+                  className="text-sm text-white/50 transition-all duration-300 hover:text-brand hover:translate-x-0.5"
                 >
                   Preguntas Frecuentes
                 </Link>
@@ -110,7 +110,7 @@ export default function Footer() {
         </div>
 
         {/* Separador + copyright */}
-        <div className="mt-12 border-t border-white/10 pt-6 text-center text-xs text-white/30">
+        <div className="mt-16 border-t border-white/10 pt-8 text-center text-xs text-white/30">
           <p>{siteConfig.footer.copyright}</p>
           <p className="mt-1">
             <Link href="#" className="transition-colors hover:text-white/50">
