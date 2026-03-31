@@ -11,6 +11,15 @@ Formato: MAYOR.MENOR.PARCHE
 
 ## Historial de Cambios
 
+### v0.3.0 — 2026-03-31
+| Campo | Valor |
+|-------|-------|
+| Tipo | feat |
+| Descripción | Carrusel de testimonios en hero (5 reseñas, auto-play, dots, pause-on-hover), foto real de Lic. Julissa Ortega, fix visibilidad del logo en navbar, mejoras de estilo general (tarjetas, botones, stats, footer, WhatsApp pulse) |
+| Archivos | site-config.ts, TestimonialCarousel.tsx, Hero.tsx, AboutAttorney.tsx, Navbar.tsx, Services.tsx, StatsBar.tsx, Footer.tsx, WhatsAppFloat.tsx, Button.tsx, globals.css |
+| Impacto | UI significativamente mejorada, más moderna y profesional |
+| SOP | SOP-006 |
+
 ### v0.2.1 — 2026-03-31
 | Campo | Valor |
 |-------|-------|
