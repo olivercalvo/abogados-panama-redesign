@@ -11,6 +11,15 @@ Formato: MAYOR.MENOR.PARCHE
 
 ## Historial de Cambios
 
+### v0.3.1 — 2026-03-31
+| Campo | Valor |
+|-------|-------|
+| Tipo | feat + style |
+| Descripción | Carrusel de testimonios cambiado a slide horizontal (translateX, 650ms, conveyor belt). Foto de abogada reducida con max-w-sm/md para mejor proporción. |
+| Archivos | TestimonialCarousel.tsx, AboutAttorney.tsx |
+| Impacto | UX mejorada en hero y sección about |
+| SOP | SOP-006 |
+
 ### v0.3.0 — 2026-03-31
 | Campo | Valor |
 |-------|-------|
